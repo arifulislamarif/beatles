@@ -1,0 +1,150 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .about-text {
+        padding-top: 10px;
+    }
+    .team-social {
+        top: 0px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .team-social ul li a i {
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .team-social {
+        top: 0px;
+    }
+    .team-social ul li {
+        margin: 12px 0;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area .mean-bar {
+        right: 0%;
+        top: 25px;
+    }
+    .header-area .mean-container a.meanmenu-reveal {
+        border: 3px solid #777b92;
+        color: #777b92;
+        border-radius: 10px;
+    }
+    .header-area .mean-container a.meanmenu-reveal span {
+        background: #777b92 none repeat scroll 0 0;
+        display: block;
+        height: 5px;
+        margin-top: 2px;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal {
+        border: 3px solid #ffffff;
+        color: #ffffff;
+    }
+    .header-area-2 .mean-container a.meanmenu-reveal span {
+        background: #ffffff none repeat scroll 0 0;
+    }
+    .header-area .mean-container a.meanmenu-reveal {
+        margin-top: -45px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .header-area .logo{
+        padding:15px 0;
+    }
+    .header-area {
+        align-items: normal;
+    }
+    .portfolio-menu button {
+        padding: 5px 15px;
+        margin: 0 5px 15px 5px ;
+    }
+    .team-social {
+        top: -8px;
+    }
+ 
+}
+
+@media (min-width: 350px) and (max-width: 400px){
+    .container {width:95%;}
+    .team-social ul li a i {
+        font-size: 18px;
+        height: 3px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .back-to-top a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .banner-text {
+        padding-top: 50px;
+    }
+    .team-social ul li {
+        margin: 10px 0;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 348px){
+    .container {width:95%;}
+
+    .header-area .mean-bar {
+        top: 20px;
+    }
+    .top-header-left {
+        display: block;
+        padding: 12px 0;
+        text-align: center;
+        float: none;
+    }
+    .top-header-social {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .banner-text h1 {
+        margin-bottom: 10px;
+    }
+    .banner-text {
+        padding-top: 30px;
+    }
+    .team-social ul li {
+        margin: 10px 0;
+    }
+    .team-social ul li a i {
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .team-social {
+        top: 0px;
+    }
+    .back-to-top a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .footer-contact ul li {
+        font-size: 10px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}
+ 
+
