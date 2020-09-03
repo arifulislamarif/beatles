@@ -35,8 +35,8 @@ $('.testimonial-active').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
-  autoplay: false,
-  autoplaySpeed: 1000,
+
+ 
   responsive: [
     {
       breakpoint: 768,
