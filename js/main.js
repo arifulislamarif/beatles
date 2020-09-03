@@ -33,6 +33,8 @@
 // testimonial active 
 $('.testimonial-active').slick({
   infinite: true,
+  autoplay: true,
+  autoplaySpeed:2000,
   slidesToShow: 2,
   slidesToScroll: 2,
 
